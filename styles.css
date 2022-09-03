@@ -3,6 +3,10 @@ p {
     color :rgb(105, 96, 49);
     text-align: justify;
     font-size: 30px;
+    line-height: 1.5;
+    text-indent: 20px;
+    text-decoration: none   
+   
     
 }
 h1 {
@@ -22,7 +26,10 @@ h2 {
 }
     
 h3 {
-    color: #7E07A9
+    color: #7E07A9;
+    width: 300px;
+    font: bold italic 40px/50px Arial;
+   
 }
 
 table {
@@ -41,3 +48,9 @@ td {
     height: 300px;
 
 }
+a {
+    text-decoration: none;
+    color: rgb(142, 29, 29)
+}
+
+
