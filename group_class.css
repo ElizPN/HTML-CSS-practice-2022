@@ -30,6 +30,17 @@ h3.header {
 .lll .bbb {
     color: plum
 }
-.lll h2 {
+.lll h2.bbb {
     color: aqua;
+}
+.lll h3.bbb {
+    color:coral
+}
+.lll p.bbb {
+    color:darkcyan
+}
+
+.eee .bbb .kkk {
+    color: hotpink;
+    
 }
