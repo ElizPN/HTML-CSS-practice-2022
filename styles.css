@@ -54,3 +54,58 @@ a {
 }
 
 
+
+p i {
+    color: green
+}
+
+p b i {
+    color: red
+}
+
+
+
+li > b {
+    color: red
+}
+
+.eee {
+    font-size: 20px;
+   
+}
+
+.xxx {
+    font-size: 30px;
+  
+}
+
+.eee, .xxx {
+    line-height: 1.5;
+        font-family: Arial;
+
+}
+
+
+.kkk {
+    color: #7E07A9;
+}
+
+.first p {    
+    color: red;
+}
+.second p{
+    color: green;
+}
+.third p {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+.green p, .green h2{ 
+    color: green;
+}
+.red p, .red h2 {
+    color: red
+}
