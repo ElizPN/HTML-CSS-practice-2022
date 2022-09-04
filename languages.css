@@ -1,18 +1,35 @@
 h1 {
     color: blue;
     text-align: center;
-    width: 500px;
     text-align: center;
-}
+    font-size: 40px;
+}   
 
 h2 {
-    color: green
+    color: green;
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
 }
 
 p {
-    width: 500px;
+    font-size: 16px;
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 25px;
+ 
 }
+ h1, h2 , p {
+    width: 500px;
+    font-family: Arial;
+ }
+
 
 ul {
     width: 400px;
+    line-height: 20px;
+}
+
+i {
+    color : green
 }
