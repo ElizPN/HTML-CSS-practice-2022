@@ -71,3 +71,10 @@ p {
     color: blue;
 }
 
+/* 
+* - is mean you select all tags */
+
+main * p {
+    color: red
+}
+
