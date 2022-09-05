@@ -1,4 +1,4 @@
-p { 
+/* p { 
     width: 300px;
     color :rgb(105, 96, 49);
     text-align: justify;
@@ -8,14 +8,14 @@ p {
     text-decoration: none   
    
     
-}
+} */
 h1 {
     color: green;
     text-align: center;
     font-size: 50px;
     font-family: 'Comic Sans MS'
 }
-h2 {
+/* h2 {
     color: pink;
     text-align: center;
     width: 300;
@@ -23,7 +23,7 @@ h2 {
     font-size: 40px;
     font-weight: normal;
 
-}
+} */
     
 h3 {
     color: #7E07A9;
@@ -109,3 +109,69 @@ li > b {
 .red p, .red h2 {
     color: red
 }
+
+
+.success {
+    color:darkcyan
+}
+
+.error {
+    color: red;
+}
+
+.large {
+    font-size: 30px;
+}
+
+.small {
+    font-size: 20px;
+}
+#elem1 p{
+    color:rgb(105, 36, 49)
+}
+#elem2 p{
+    color:blueviolet
+}
+#elem3 p {
+    color:hotpink
+}
+ #elem .text {
+    color : yellowgreen
+
+}
+
+
+#elem p.text {
+    color:chocolate 
+}
+
+#elem li.text {
+    color: cyan;
+}
+
+/* element that has three classes */
+.one.two.three {
+     font-style: italic;
+}
+
+/* h2 with .colomn and .pop classes */
+h2.column.pop {
+    color: red;
+}
+
+/* all elements with #mom id and .lok class */
+#mom.lok {
+    color: red;
+}
+
+#kot.ooo.ddd {
+    color:darkseagreen;
+}
+
+p#kot.ddd.ooo {
+    color: rgb(42, 144, 181);
+}
+
+
+
+
