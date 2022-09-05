@@ -2,7 +2,19 @@
 p.bbb {
     color: red;
 }
+
 /* all tags inside p with class bbb */
 p .bbb {
     color: green
 }
+/* all p tags with .bbb selectors inside .eee */
+.eee p.bbb {
+    color:blue;
+}
+
+/* all tags with .bbb selectors inside p that are inside tags with .eee selectors */
+.eee p .bbb {
+    color: darkorange
+}
+
+
