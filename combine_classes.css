@@ -55,3 +55,19 @@ p.fff {
 p {
     color: forestgreen
 }
+
+/* neighborg selector */
+
+#elem + li {
+    color:royalblue
+}
+.elem +li {
+    color: royalblue
+}
+
+
+/* parents selectors */
+#ule ~ li {
+    color: blue;
+}
+
