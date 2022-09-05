@@ -1,0 +1,57 @@
+/* div p, div h2 {
+    text-align: center;
+    color:red;
+}
+
+#block p {
+    text-decoration:underline;
+    color: blue;
+    
+} */
+/* #block h2 {
+    text-align: center;
+}
+
+#block .bbb {
+    color: darkorange;
+} */
+
+p.bbb {
+    color:aqua
+}
+h2.bbb {
+    color: red
+}
+
+#block2 p.bbb{
+     color:darkmagenta;
+     font-size: 40px;
+}
+
+.bbb, .xxx {
+    color: red
+
+}
+
+.block3 p.bbb, .block3 h2.xxx {
+    color:darksalmon
+
+}
+#block p.bbb, #block p.xxx {
+    text-align: center;
+
+}
+.fff p {
+    text-align: center;
+}
+
+p.fff {
+    text-align: center;
+}
+
+.lolo {
+    color: red
+}
+p {
+    color: forestgreen
+}
