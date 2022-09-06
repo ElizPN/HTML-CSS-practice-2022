@@ -33,3 +33,13 @@ li:nth-child(3) {
 .list4 {
     margin-bottom: 10px;
 }
+
+.shapes li:empty {
+    border: solid blue;
+    width: 100px;
+}
+.shapes li {
+    border: solid red;
+    width: 100px;
+    margin: 10px;
+}
