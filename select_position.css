@@ -25,3 +25,11 @@ li:nth-child(3) {
 .list3 li:nth-last-child(2) {
     color: green
 }
+
+.list4 li:only-child {
+    color: red
+}
+
+.list4 {
+    margin-bottom: 10px;
+}
