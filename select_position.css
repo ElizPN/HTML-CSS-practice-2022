@@ -1,0 +1,27 @@
+/* li:first-child {
+    color: red
+} */
+
+/* li:last-child {
+    color: green;
+} */
+
+li:nth-child(3) {
+    color: purple
+}
+
+.list li:nth-child(odd) {
+    color: red
+}
+
+.list li:nth-child(even) {
+    color: green
+}
+
+.list2 li:nth-child(3n) {
+    color: red
+}
+
+.list3 li:nth-last-child(2) {
+    color: green
+}
