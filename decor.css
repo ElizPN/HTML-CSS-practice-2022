@@ -1,0 +1,71 @@
+.blue-sqear {
+    width: 200px;
+    height: 200px;
+    background-color: #7e89eb;
+ 
+}
+
+.green-sqear {
+    width: 300px;
+    height: 200px;
+    background-color: #4dee99;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.blue-window {
+    border: 5px solid blue;
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.red-window {
+    border-style: dotted;
+    border-color: red;
+    border-width: 5px;
+        width: 300px;
+        height: 200px;
+        margin-top: 10px;
+
+}
+
+.yellow-window {
+    border: 2px dashed orange;
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+
+}
+
+.double-blue-window {
+    border: 10px double blue;
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+
+}
+
+.multi {
+    border-left: 2px solid orange;
+    border-top: 2px solid blue;
+    border-right: 2px solid green;
+    border-bottom: 2px solid red;
+    width: 300px;
+        height: 200px;
+        margin-top: 10px;
+
+}
+.multi-blue {
+    border-bottom: 1px solid  blue;
+    border-top: 1px solid  blue;
+    border-left: 3px solid red;
+    border-right: 3px dotted green;
+
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+
+}
+ 
