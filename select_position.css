@@ -43,3 +43,62 @@ li:nth-child(3) {
     width: 100px;
     margin: 10px;
 }
+
+
+/* Selection by position and type of elements */
+
+li:first-of-type {
+    color: gray;
+    font-size: medium;
+}
+
+p:first-of-type {
+    color:brown
+}
+
+
+/* will not work, because first-child - is must to be first tag. 
+In our case h2 - is first tag  
+last of child will also don`t work */
+p:first-child {
+    color: brown
+}
+
+h2:last-of-type {
+    color: green
+}
+
+.titles h2:nth-of-type(2) {
+  color:darksalmon
+}
+
+.titles h2:nth-last-of-type(2) {
+    color: darksalmon
+}
+
+
+.form {
+    border: 1px dashed black;
+    padding: 15px;
+     margin-bottom: 10px;
+}
+.form h2:only-of-type {
+    color:blue
+}
+
+/* selector not */
+
+.list7 li:not(.elem) {
+ color: magenta
+}
+
+.list6 li:not(:first-child) {
+    color: coral;
+}
+
+/* .list8 li:not(:first-of-type) {
+    color:red
+} */
+.list8 li:not(:first-of-type, :last-of-type) {
+    color: red
+}
