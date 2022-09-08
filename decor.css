@@ -161,4 +161,21 @@ body {
     background-origin:border-box;
 }
 
+.square {
+    list-style: square;
+}
+.none {
+    list-style: none;
+}
+.circle-list {
+    list-style: circle;
+}
+
+
+.numbers {
+    list-style:upper-alpha;
+}
+
+
+
 
