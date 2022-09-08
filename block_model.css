@@ -1,0 +1,110 @@
+.parent {
+    width: 400px;
+    border: 1px dashed blue;
+  
+}
+
+.child {
+    height: 300px;
+    border: 1px solid orange;
+    margin: 45px;
+}
+
+.grandfather {
+    width: 400px;
+    border: 1px dashed blue;
+    margin-top: 30px;
+}
+
+.father {
+    border: 1px dashed green;
+    margin: 25px;
+}
+.sun {
+    height: 200px;
+    border: 1px solid red;
+    margin: 25px;
+
+}
+.outside {
+    width: 200px;
+    height: 250px;
+    border: 1px solid red;
+    margin-top: 30px;
+}
+.inside {
+    border: 1px solid green;
+    height: 100px;
+    margin: 50px 50px 70px;
+
+}
+
+.outside2 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    margin-top: 30px;
+}
+
+.inside2 {
+    border: 1px solid green;
+    height: 100px;
+    margin:  50px 25px;
+
+}
+.out {
+    width: 200px;
+    border: 1px solid red;
+    margin-top: 30px;
+}
+
+.in {
+    border: 1px solid green;
+    height: 100px;
+    margin:  20px 70px;
+
+}
+
+.block {
+    width: 200px;
+        border: 1px solid red;
+        margin-top: 30px;
+        text-align: justify;
+        padding: 50px;
+
+}
+
+.block2 {
+    width: 500px;
+    border: 1px solid green;
+    margin-top: 30px;
+    text-align: justify;
+    padding: 20px 20px;
+
+}
+.block3 {
+    width: 300px;
+    border: 1px solid red;
+    margin-top: 30px;
+    text-align: justify;
+    padding: 10px 20px 30px 40px;
+
+}
+
+.block4 {
+    width: 300px;
+    border: 1px solid red;
+    margin-top: 30px;
+    text-align: justify;
+    padding: 60px 30px;
+
+}
+
+.block5 {
+    width: 300px;
+    border: 1px solid red;
+    margin-top: 30px;
+    text-align: justify;
+    padding: 10px 20px 40px;
+
+}
