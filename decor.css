@@ -129,7 +129,36 @@
 body {
     background-image: url(bg.png);
     background-repeat: no-repeat;
-    background-position: 300px 20px;
+    background-position: 300px 20px; 
+    background-attachment: fixed;
+
+}
+
+.picture {
+    border: 1px solid black;
+    width: 500px;
+    height: 600px;
+    background-image: url(sea.webp);
+    background-size: cover;
+
+}
+
+.clip {
+    border: 10px double black;
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    background-color: coral;
+    background-clip: padding-box; /* you can use img as background */
+}
+
+.img {
+    border: 10px double black;
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    background-image: url(bg.png);
+    background-origin:border-box;
 }
 
 
