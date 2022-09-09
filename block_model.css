@@ -108,3 +108,35 @@
     padding: 10px 20px 40px;
 
 }
+        /* box-sizing:border-box allows us to keep initial size of element;
+        if we don`t apply it - the padding and border extend the size of element respectively (25px + 10px) */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: grey ;
+    margin-top: 20px;
+    padding: 25px;
+    border: 10px solid green;
+    box-sizing:border-box;
+}
+
+h1 {
+    width: 100px;
+        height: 100px;
+        background-color: grey;
+        border: 1px solid black;
+}
+p {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid black;
+    display: inline;
+}
+a {     display: block;
+        width: 100px;
+        height: 100px;
+        background-color: grey;
+        border: 1px solid black;
+        
+    }
