@@ -237,3 +237,76 @@ p {
     border: 1px solid green;
     margin-right: 10px;
 }
+
+/* flex */
+
+.parent-flex {
+    display: flex;
+    border: 1px solid red;
+    width: 900px;
+    height: 400px;
+    height: 400px;
+    margin: 10px auto;
+}
+
+.child-flex {
+    border: 1px solid green;
+    width: 120px;
+    height: 60px;
+
+}
+
+.parent-flex2 {
+    display: flex;
+    border: 1px solid red;
+    width: 900px; 
+    margin: 10px auto;
+}
+
+.child-flex2 {
+    border: 1px solid green;
+    width: 120px;
+    height: 100px;
+
+}
+
+.parent-flex3 {
+    display: flex;
+    border: 1px solid red;
+    margin: 10px auto;
+}
+
+.child-flex3 {
+    border: 1px solid green;
+    width: 120px;
+    height: 60px;   
+
+}
+
+.parent-inline-flex {
+    display: inline-flex;
+    border: 1px solid red;
+    padding: 10px;
+
+}
+
+.child-inline-flex {
+    width: 50px;
+    height: 50px;
+    border: 1px solid green;
+    margin: 5px;
+}
+
+.parent-flex4 {
+    display: flex;
+    border: 1px solid red;
+    margin: 10px auto;
+}
+
+.child-flex4 {
+    border: 1px solid green;
+    width: 120px;
+    height: 60px;
+    margin: 30px;
+
+}
