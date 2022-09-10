@@ -133,7 +133,7 @@ p {
     border: 1px solid black;
     display: inline;
 }
-a {     display: block;
+    .link {     display: block;
         width: 100px;
         height: 100px;
         background-color: grey;
@@ -151,6 +151,7 @@ a {     display: block;
     .first-red {
         border: 1px solid red;
         /* width: 700px; */
+        margin-top: 10px;
     }
 
     .first-green {
@@ -175,3 +176,64 @@ a {     display: block;
     }
 
 
+        .parent2 {
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 10px;
+            border: 1px solid red;
+        }
+   
+         .parent3 {
+            text-align: right;
+            margin-top: 10px;
+             padding: 10px 10px;
+             border: 1px solid red;
+         }
+
+.parent4 {
+    text-align: center;
+    padding: 10px 0;
+    border: 1px solid red;
+    margin-top: 10px;
+}
+
+.child2 {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid green;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.parent5 {
+    text-align: right;
+    padding: 10px 0;
+    border: 1px solid red;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+
+.child3 {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid green;
+    margin-right: 10px;
+
+}
+
+.parent6 {
+    padding: 10px 0;
+    border: 1px solid red;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.child4 {
+    display: inline-block;  
+    text-align: center;                                                
+    width: 100px;
+    padding: 10px;
+    border: 1px solid green;
+    margin-right: 10px;
+}
