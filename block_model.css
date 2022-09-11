@@ -310,3 +310,65 @@ p {
     margin: 30px;
 
 }
+
+/* alignment flex elements */
+
+.parent-flex-align {
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+    width: 900px;
+    height: 400px;
+}
+
+.child-flex-align {
+    border: 1px solid green;
+    width: 120px;
+    height: 60px;
+
+}
+
+.parent-flex-align2 {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    width: 900px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.child-flex-align2 {
+    border: 1px solid green;
+    width: 120px;
+    height: 60px;
+}
+
+.parent-flex-align3 {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red;
+    width: 900px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.child-flex-align3 {
+    border: 1px solid green;
+    width: 120px;
+    height: 60px;
+}
+
+.parent-flex-align4 {
+    display: flex;
+    justify-content:space-evenly;
+    border: 1px solid red;
+    width: 900px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.child-flex-align4 {
+    border: 1px solid green;
+    width: 120px;
+    height: 60px;
+}
