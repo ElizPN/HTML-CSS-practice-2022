@@ -1,0 +1,137 @@
+/* position absolut */
+
+ .absolute #one {
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    position: absolute;
+}
+
+.absolute #two {
+    width: 50px;
+    height: 50px;
+    border: 1px solid blue;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+}
+
+.absolute #three {
+    width: 50px;
+    height: 50px;
+    border: 1px solid green;
+    position: absolute;
+    top: 130px;
+    left: 135px;
+}
+
+ .absolute2 #one {
+     width: 50px;
+     height: 50px;
+     border: 1px solid red;
+     position: absolute;
+     top: 250px;
+ }
+
+ .absolute2 #two {
+     width: 50px;
+     height: 50px;
+     border: 1px solid blue;
+     position: absolute;
+     top: 250px;
+     left: 70px;
+ }
+
+ .absolute2 #three {
+     width: 50px;
+     height: 50px;
+     border: 1px solid green;
+     position: absolute;
+     top: 250px;
+     left: 135px;
+ }
+
+
+  .absolute3 #one {
+      width: 50px;
+      height: 50px;
+      border: 1px solid red;
+      position: absolute;
+      top: 500px;
+  }
+
+  .absolute3 #two {
+      width: 50px;
+      height: 50px;
+      border: 1px solid blue;
+      position: absolute;
+      top: 530px;
+      left: 40px;
+  }
+
+  .absolute3 #three {
+      width: 50px;
+      height: 50px;
+      border: 1px solid green;
+      position: absolute;
+      top: 560px;
+      left: 70px;
+  }
+
+
+  .absolute4 #one {
+      width: 50px;
+      height: 50px;
+      background-color: #FF8888;
+      position: absolute;
+      top: 600px;
+  }
+
+  .absolute4 #two {
+      width: 50px;
+      height: 50px;
+      background-color: #7E89EB;
+      position: absolute;
+      top: 630px;
+      left: 40px;
+  }
+
+  .absolute4 #three {
+      width: 50px;
+      height: 50px;
+      background-color: #4DEE99;
+      position: absolute;
+      top: 660px;
+      left: 70px;
+  }
+
+        .relative #one {
+            width: 100px;
+            height: 100px;
+            background-color: #FF8888;
+            position: relative;
+            margin-bottom: 20px;
+            top: 800px;
+        }
+    
+        .relative #two {
+            width: 100px;
+            height: 100px;
+            background-color: #7E89EB;
+            margin-bottom: 20px;
+            position: relative;
+            top: 750px;
+            right: -40px;
+           
+        }
+    
+        .relative #three {
+            width: 100px;
+            height: 100px;
+            background-color: #4DEE99;
+            margin-bottom: 20px;
+            position: relative;
+                top: 708px;
+                    right: -120px;
+          
+        }
