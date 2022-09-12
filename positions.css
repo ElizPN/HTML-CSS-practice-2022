@@ -1,137 +1,261 @@
 /* position absolut */
 
- .absolute #one {
-    width: 50px;
-    height: 50px;
-    border: 1px solid red;
-    position: absolute;
+.absolute #one {
+  width: 50px;
+  height: 50px;
+  border: 1px solid red;
+  position: absolute;
 }
 
 .absolute #two {
-    width: 50px;
-    height: 50px;
-    border: 1px solid blue;
-    position: absolute;
-    top: 70px;
-    left: 70px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid blue;
+  position: absolute;
+  top: 70px;
+  left: 70px;
 }
 
 .absolute #three {
-    width: 50px;
-    height: 50px;
-    border: 1px solid green;
-    position: absolute;
-    top: 130px;
-    left: 135px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid green;
+  position: absolute;
+  top: 130px;
+  left: 135px;
 }
 
- .absolute2 #one {
-     width: 50px;
-     height: 50px;
-     border: 1px solid red;
-     position: absolute;
-     top: 250px;
- }
+.absolute2 #one {
+  width: 50px;
+  height: 50px;
+  border: 1px solid red;
+  position: absolute;
+  top: 250px;
+}
 
- .absolute2 #two {
-     width: 50px;
-     height: 50px;
-     border: 1px solid blue;
-     position: absolute;
-     top: 250px;
-     left: 70px;
- }
+.absolute2 #two {
+  width: 50px;
+  height: 50px;
+  border: 1px solid blue;
+  position: absolute;
+  top: 250px;
+  left: 70px;
+}
 
- .absolute2 #three {
-     width: 50px;
-     height: 50px;
-     border: 1px solid green;
-     position: absolute;
-     top: 250px;
-     left: 135px;
- }
+.absolute2 #three {
+  width: 50px;
+  height: 50px;
+  border: 1px solid green;
+  position: absolute;
+  top: 250px;
+  left: 135px;
+}
 
+.absolute3 #one {
+  width: 50px;
+  height: 50px;
+  border: 1px solid red;
+  position: absolute;
+  top: 500px;
+}
 
-  .absolute3 #one {
-      width: 50px;
-      height: 50px;
-      border: 1px solid red;
-      position: absolute;
-      top: 500px;
-  }
+.absolute3 #two {
+  width: 50px;
+  height: 50px;
+  border: 1px solid blue;
+  position: absolute;
+  top: 530px;
+  left: 40px;
+}
 
-  .absolute3 #two {
-      width: 50px;
-      height: 50px;
-      border: 1px solid blue;
-      position: absolute;
-      top: 530px;
-      left: 40px;
-  }
+.absolute3 #three {
+  width: 50px;
+  height: 50px;
+  border: 1px solid green;
+  position: absolute;
+  top: 560px;
+  left: 70px;
+}
 
-  .absolute3 #three {
-      width: 50px;
-      height: 50px;
-      border: 1px solid green;
-      position: absolute;
-      top: 560px;
-      left: 70px;
-  }
+.absolute4 #one {
+  width: 50px;
+  height: 50px;
+  background-color: #ff8888;
+  position: absolute;
+  top: 600px;
+}
 
+.absolute4 #two {
+  width: 50px;
+  height: 50px;
+  background-color: #7e89eb;
+  position: absolute;
+  top: 630px;
+  left: 40px;
+}
 
-  .absolute4 #one {
-      width: 50px;
-      height: 50px;
-      background-color: #FF8888;
-      position: absolute;
-      top: 600px;
-  }
+.absolute4 #three {
+  width: 50px;
+  height: 50px;
+  background-color: #4dee99;
+  position: absolute;
+  top: 660px;
+  left: 70px;
+}
 
-  .absolute4 #two {
-      width: 50px;
-      height: 50px;
-      background-color: #7E89EB;
-      position: absolute;
-      top: 630px;
-      left: 40px;
-  }
+.relative #one {
+  width: 100px;
+  height: 100px;
+  background-color: #ff8888;
+  position: relative;
+  margin-bottom: 20px;
+  top: 800px;
+}
 
-  .absolute4 #three {
-      width: 50px;
-      height: 50px;
-      background-color: #4DEE99;
-      position: absolute;
-      top: 660px;
-      left: 70px;
-  }
+.relative #two {
+  width: 100px;
+  height: 100px;
+  background-color: #7e89eb;
+  margin-bottom: 20px;
+  position: relative;
+  top: 750px;
+  right: -40px;
+}
 
-        .relative #one {
-            width: 100px;
-            height: 100px;
-            background-color: #FF8888;
-            position: relative;
-            margin-bottom: 20px;
-            top: 800px;
-        }
-    
-        .relative #two {
-            width: 100px;
-            height: 100px;
-            background-color: #7E89EB;
-            margin-bottom: 20px;
-            position: relative;
-            top: 750px;
-            right: -40px;
-           
-        }
-    
-        .relative #three {
-            width: 100px;
-            height: 100px;
-            background-color: #4DEE99;
-            margin-bottom: 20px;
-            position: relative;
-                top: 708px;
-                    right: -120px;
-          
-        }
+.relative #three {
+  width: 100px;
+  height: 100px;
+  background-color: #4dee99;
+  margin-bottom: 20px;
+  position: relative;
+  top: 708px;
+  right: -120px;
+}
+
+/* relative parent and absolute child */
+
+.relative-absolute-parent {
+  width: 500px;
+  height: 400px;
+  margin: auto;
+  border: 1px solid green;
+  position: relative;
+}
+.relative-absolute-child {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.relative-absolute-parent2 {
+  width: 500px;
+  height: 400px;
+  margin: auto;
+  background-color: #4dee99;
+  position: relative;
+  margin-top: 20px;
+}
+.relative-absolute-child1 {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+.relative-absolute-child2 {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
+
+.traffic-light {
+  width: 200px;
+  height: 400px;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 20px;
+  position: relative;
+}
+.circle1 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+.circle2 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: yellow;
+  position: absolute;
+  top: 160px;
+  right: 50px;
+}
+.circle3 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: green;
+  position: absolute;
+  top: 270px;
+  right: 50px;
+}
+
+.face {
+  width: 500px;
+  height: 500px;
+  border-radius: 500px;
+  background-color: #4dee99;
+  margin: auto;
+  margin-top: 20px;
+  position: relative;
+}
+
+.shape1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 70px;
+  left: 100px;
+}
+.shape2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 70px;
+  right: 100px;
+}
+.shape3 {
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  position: absolute;
+  top: 200px;
+  right: 215px;
+}
+
+.shape4 {
+  width: 200px;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  top: 350px;
+  right: 150px;
+}
