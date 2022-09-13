@@ -1,7 +1,19 @@
 #img-left {
   float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
 }
 
 #img-right {
   float: right;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+div {
+  width: 600px;
+  border: 1px solid black;
+  text-align: justify;
+  margin: 0 auto;
+  padding: 20px;
 }
