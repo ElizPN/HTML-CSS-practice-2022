@@ -383,3 +383,32 @@
   border: 1px solid #c4cd14;
   padding: 30px 20px;
 }
+
+.absolute5 #one {
+  width: 50px;
+  height: 50px;
+  background-color: #ff8888;
+  position: absolute;
+  top: 700px;
+  z-index: 3;
+}
+
+.absolute5 #two {
+  width: 50px;
+  height: 50px;
+  background-color: #7e89eb;
+  position: absolute;
+  top: 730px;
+  left: 40px;
+  z-index: -1;
+}
+
+.absolute5 #three {
+  width: 50px;
+  height: 50px;
+  background-color: #4dee99;
+  position: absolute;
+  top: 760px;
+  left: 70px;
+  /* z-index: 0; we should not write it */
+}
