@@ -10,7 +10,7 @@
   margin-top: 20px;
   margin-bottom: 10px;
 }
-div {
+.wrapper {
   width: 600px;
   border: 1px solid black;
   text-align: justify;
@@ -19,16 +19,35 @@ div {
 }
 
 .parent {
-  width: 600px;
+  width: 800px;
   border: 1px solid black;
   padding: 20px;
   margin: 0 auto;
 }
 .child {
-  width: 60px;
-  height: 30px;
+  width: 130px;
+  height: 70px;
   border: 1px solid green;
   float: right;
   margin-top: 20px;
   margin-left: 20px;
+  text-align: center;
+}
+
+.parent2 {
+  margin-top: 50px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.parent2 .child2 {
+  width: 100px;
+  height: 50px;
+  border: 1px solid green;
+  float: right;
+  margin: 20px;
+  text-align: center;
+}
+.clearfix {
+  clear: both;
 }
