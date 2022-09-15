@@ -1,6 +1,6 @@
 /* you assign display flex to parent element 
 flex-direction: row - default value */
-.parent {
+.row {
   display: flex;
   width: 800px;
   height: 400px;
@@ -12,7 +12,7 @@ flex-direction: row - default value */
   height: 60px;
   border: 1px solid green;
 }
-.parent2 {
+.column {
   display: flex;
   flex-direction: column;
   width: 800px;
@@ -22,7 +22,7 @@ flex-direction: row - default value */
   margin-top: 20px;
 }
 
-.parent3 {
+.row-reverse {
   display: flex;
   flex-direction: row-reverse;
   width: 800px;
@@ -31,9 +31,59 @@ flex-direction: row - default value */
   margin: auto;
   margin-top: 20px;
 }
-.parent4 {
+.column-reverse {
   display: flex;
   flex-direction: column-reverse;
+  width: 800px;
+  height: 400px;
+  border: 1px solid red;
+  margin: auto;
+  margin-top: 20px;
+}
+.row-flex-end {
+  display: flex;
+  justify-content: flex-end;
+  width: 800px;
+  height: 400px;
+  border: 1px solid red;
+  margin: auto;
+  margin-top: 20px;
+}
+.column-flex-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 800px;
+  height: 400px;
+  border: 1px solid red;
+  margin: auto;
+  margin-top: 20px;
+}
+.row-reverse-flex-start {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  width: 800px;
+  height: 400px;
+  border: 1px solid red;
+  margin: auto;
+  margin-top: 20px;
+}
+.row-reverse-flex-end {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  width: 800px;
+  height: 400px;
+  border: 1px solid red;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.column-reverse-flex-end {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
   width: 800px;
   height: 400px;
   border: 1px solid red;
