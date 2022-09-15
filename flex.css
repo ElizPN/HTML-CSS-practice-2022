@@ -1,5 +1,9 @@
 /* you assign display flex to parent element 
 flex-direction: row - default value */
+h2 {
+  text-align: center;
+}
+
 .row {
   display: flex;
   width: 800px;
@@ -40,6 +44,8 @@ flex-direction: row - default value */
   margin: auto;
   margin-top: 20px;
 }
+
+/* justify-content - Aligning flex items along the Principal Axis */
 .row-flex-end {
   display: flex;
   justify-content: flex-end;
@@ -84,6 +90,56 @@ flex-direction: row - default value */
   display: flex;
   flex-direction: column-reverse;
   justify-content: flex-end;
+  width: 800px;
+  height: 400px;
+  border: 1px solid red;
+  margin: auto;
+  margin-top: 20px;
+}
+
+/* align-items - Aligning flex boxes along the cross axis */
+
+.column-reverse-flex-end2 {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 800px;
+  height: 400px;
+  border: 1px solid red;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.row-reverse-flex-start2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 800px;
+  height: 400px;
+  border: 1px solid red;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.column-reverse-flex-start2 {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 800px;
+  height: 400px;
+  border: 1px solid red;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.column-reverse-flex-start2 {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+  align-items: flex-end;
   width: 800px;
   height: 400px;
   border: 1px solid red;
