@@ -147,7 +147,7 @@ h2 {
   margin-top: 20px;
 }
 
-.row-middle {
+.row-center-upp {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -159,11 +159,47 @@ h2 {
   margin-top: 20px;
 }
 
-.row-middle-down {
+.row-center-down {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: flex-end;
+  width: 800px;
+  height: 400px;
+  border: 1px solid red;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.row-center-middle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 400px;
+  border: 1px solid red;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.row-reverse-center-middle {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 400px;
+  border: 1px solid red;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.row-space-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   width: 800px;
   height: 400px;
   border: 1px solid red;
