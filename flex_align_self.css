@@ -56,4 +56,5 @@
 }
 .self3 {
   align-self: center;
+  /* order: 1; chane ordering flex element*/
 }
