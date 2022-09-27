@@ -1,0 +1,21 @@
+#menu a {
+  color: white;
+  background-color: #16a177;
+  padding: 10px 25px;
+  margin-right: 5px;
+  text-decoration: none;
+  font: 16px Arial;
+}
+
+#menu {
+  /* margin-top: 30px; */
+  display: flex;
+  margin: auto;
+}
+
+#menu a:hover,
+#menu a.active {
+  background-color: azure;
+  color: #16a177;
+  border: 1px solid #16a177;
+}
