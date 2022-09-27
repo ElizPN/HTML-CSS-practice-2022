@@ -1,0 +1,21 @@
+#menu a {
+  color: white;
+  background-color: #16a177;
+  padding: 15px 25px;
+  height: 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  font: 16px Arial;
+}
+#menu {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+#menu a:hover,
+#menu a.active {
+  color: #16a177;
+  background-color: white;
+  border: 1px solid #16a177;
+}
