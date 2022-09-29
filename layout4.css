@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+.wrapper {
+}
+
+#header {
+  background-color: rgb(116, 173, 153);
+}
+.center {
+  width: 700px;
+  margin: 0 auto;
+  text-align: justify;
+}
+.center h1,
+.center h2,
+.center h3,
+.center h5 {
+  text-align: center;
+  color: darkslategrey;
+}
+
+#contacts {
+  background-color: rgb(240, 202, 189);
+}
+#footer {
+  padding-top: 60px;
+  padding-bottom: 2px;
+  background-color: rgb(116, 173, 153);
+}
