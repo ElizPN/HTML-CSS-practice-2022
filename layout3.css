@@ -1,0 +1,33 @@
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  margin: auto;
+  text-align: center;
+}
+#wrapper h1 {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.child {
+  border: 1px solid #707070;
+  margin-bottom: 20px;
+  text-align: justify;
+  padding: 20px;
+}
+
+.child a {
+  text-decoration: none;
+}
+#more {
+  float: right;
+  padding-right: 5px;
+}
+.child a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+.child a:visited {
+  color: blue;
+}
