@@ -1,14 +1,16 @@
+/* * {
+  box-sizing: border-box;
+} */
+
 body {
   margin: 0;
+  font-family: Arial;
 }
 .wrapper {
-}
-
-#header {
-  background-color: rgb(116, 173, 153);
+  margin-bottom: 40px;
 }
 .center {
-  width: 700px;
+  width: 840px;
   margin: 0 auto;
   text-align: justify;
 }
@@ -20,11 +22,54 @@ body {
   color: darkslategrey;
 }
 
+#header {
+  background-color: rgb(116, 173, 153);
+  padding-top: 15px;
+  padding-bottom: 6px;
+}
+#header h1 {
+  color: white;
+  margin-top: 0;
+  line-height: 30px;
+}
+#header h2 {
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 11px;
+}
+
+#servises {
+  margin: 45px auto;
+}
+ol {
+  list-style-position: inside;
+  margin-left: -40px;
+}
+li {
+  margin: 10px auto;
+  padding: 0px;
+}
+
 #contacts {
   background-color: rgb(240, 202, 189);
+  height: 90px;
+}
+#contacts h2 {
+  padding-top: 10px;
+}
+#contacts h3 {
+  font-size: 16px;
+}
+
+#company {
+  margin: 45px auto;
 }
 #footer {
-  padding-top: 60px;
-  padding-bottom: 2px;
   background-color: rgb(116, 173, 153);
+  height: 130px;
+}
+
+#footer h5 {
+  padding-top: 100px;
 }
