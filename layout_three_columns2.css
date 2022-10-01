@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+#wrapper {
+  width: 1000px;
+  margin: 30px auto;
+  border: 1px solid black;
+}
+
+#header {
+  height: 250px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+#footer {
+  height: 100px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+#container {
+  display: flex;
+}
+
+#right {
+  width: 200px;
+  height: 800px;
+  padding: 20px;
+  border: 1px solid black;
+  margin-left: 20px;
+}
+#left {
+  width: 200px;
+  height: 800px;
+  padding: 20px;
+  border: 1px solid black;
+  margin-left: 20px;
+}
+
+#content {
+  width: 560px;
+  padding: 20px;
+  border: 1px solid black;
+}
