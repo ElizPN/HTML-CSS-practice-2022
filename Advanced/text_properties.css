@@ -1,0 +1,29 @@
+#letter-space {
+  letter-spacing: 3px;
+}
+
+#word-space {
+  word-spacing: 3px;
+}
+
+#text-transform {
+  text-transform: uppercase;
+}
+span {
+  text-transform: uppercase;
+}
+#capitalize {
+  text-transform: capitalize;
+}
+#align {
+  text-align-last: right;
+}
+#red-letter {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: justify;
+}
+#red-letter p::first-letter {
+  color: red;
+  font-size: 25px;
+}
