@@ -34,3 +34,10 @@ span {
   white-space: pre;
   tab-size: 10;
 }
+
+#box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid palevioletred;
+  overflow: auto;
+}
