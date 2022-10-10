@@ -27,3 +27,10 @@ span {
   color: red;
   font-size: 25px;
 }
+#red-line p::first-line {
+  color: red;
+}
+#tab-size {
+  white-space: pre;
+  tab-size: 10;
+}
