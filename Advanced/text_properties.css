@@ -40,4 +40,43 @@ span {
   height: 200px;
   border: 1px solid palevioletred;
   overflow: auto;
+  text-overflow: ellipsis;
+}
+
+#box2 {
+  margin-top: 20px;
+  width: 200px;
+  border: 1px solid palevioletred;
+  overflow: auto;
+  text-overflow: ellipsis;
+}
+
+#box3 {
+  margin-top: 20px;
+  width: 200px;
+  border: 1px solid palevioletred;
+  word-break: break-all;
+}
+
+#box4 {
+  margin-top: 20px;
+  width: 200px;
+  border: 1px solid palevioletred;
+  overflow-wrap: break-word; /* long word starts from new string */
+}
+#columns {
+  margin-top: 20px;
+  width: 80%;
+  columns: 300px auto;
+  border: 1px solid palevioletred;
+}
+
+#columns2 {
+  margin-top: 20px;
+  width: 1000px;
+  columns: auto 4;
+  border: 1px solid palevioletred;
+  overflow-wrap: break-word;
+  column-gap: 30px;
+  column-rule: 1px dashed gray;
 }
