@@ -1,0 +1,16 @@
+li::after {
+  content: ". ";
+}
+
+#increment {
+  counter-reset: test;
+}
+h3::before {
+  counter-increment: test;
+  content: "№" counter(test);
+}
+
+a:hover::after {
+  content: attr(href);
+  color: red;
+}
